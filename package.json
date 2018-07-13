@@ -1,0 +1,18 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "w_app01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "kma-js": "^1.0.4",
+    "query-string": "^6.1.0",
+    "request": "^2.87.0",
+    "xml2js": "^0.4.19"
+  }
+}
