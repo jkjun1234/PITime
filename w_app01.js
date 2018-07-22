@@ -1,6 +1,6 @@
 var request = require('request');
 var http = require('http');
-var key = '=N0xG%2F2PCIFys3ZwZpQIWrFbCTA8oRHcigzyofUxmblsbZsvlvwTAjggM%2FrnNA4OUa9J7u1%2BNGZ9XrU%2BzHeJsCw%3D%3D';  // 서비스 인증키
+var key = '';  // 서비스 인증키
 var url = 'http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastGrib';
 var queryParams = '?' + encodeURIComponent('ServiceKey') + key/* Service Key*/
 
@@ -56,7 +56,7 @@ function realTimeWeather() {
     /* 좌표 */
     var _nx = 93,
     _ny = 91,
-    apikey = "N0xG%2F2PCIFys3ZwZpQIWrFbCTA8oRHcigzyofUxmblsbZsvlvwTAjggM%2FrnNA4OUa9J7u1%2BNGZ9XrU%2BzHeJsCw%3D%3D",
+    apikey = "",
     ForecastGribURL = "http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastGrib";
     ForecastGribURL += "?ServiceKey=" + apikey;
     ForecastGribURL += "&base_date=" + today;
